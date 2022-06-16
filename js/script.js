@@ -3,7 +3,7 @@ let cancion = prompt("Ingrese su canción: ");
 // lista vacia con la cual llenaremos de las canciones.
 const lista = [];
 // Bucle donde se repite la consigna hasta que el usuario presione la opción indicada. 
-while (cancion != 'ESC') {
+while (cancion != "ESC") {
     // Empuja la cancíon agregada a la lista.
     lista.push(cancion);
     // Solicita al usuario ingresar otra canción o finalizar el bucle.
